@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Fira+Mono&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+}
+#intr{
+    text-align: center;
+    line-height: 0px;
+    color:#F4F4F2
+    
+}
+#menu{
+ list-style-type: none;
+ padding: 0;
+ background-color: #000000;
+}
+#menu li{
+ font-family: 'Fira Mono', monospace;
+ display: inline;
+ color: #F4F4F2;
+ padding-left: 100px;
+ background: #000000;
+}
+#menu li a{
+ color: #F4F4F2;
+ padding: 30px;
+ padding-left: 65px;
+ padding-right: 65px;
+ text-decoration: none;
+ display: inline-block;
+ background: #000000;
+ font-family: 'Fira Mono', monospace;
+}
+#menu li a:hover{
+ background-color:#495464 ;
+}
+.imgP{
+    margin-left: 565px;
+    margin-right: 80px;
+    margin-top: 108px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+footer{
+ position: absolute;
+ bottom: 0;
+ background-color: #F4F4F2;
+ height: 100px;
+ width: 100%;
+ text-align: center;
+ padding-top: 50px;
+ font-family: 'Fira Mono', monospace;
+}

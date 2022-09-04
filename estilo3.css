@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Fira+Mono&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4F4F2;
+}
+#menu{
+list-style-type: none;
+padding: 0;
+background-color: #000000;
+}
+#menu li{
+display: inline;
+color: #F4F4F2;
+padding-left: 100px;
+background: #000000;
+font-family: 'Fira Mono', monospace;
+}
+#menu li a{
+color: #F4F4F2;
+padding: 30px;
+padding-left: 65px;
+padding-right: 65px;
+text-decoration: none;
+display: inline-block;
+background: #000000;
+}
+#menu li a:hover{
+background-color:#495464;
+}
+#titulo{
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Fira Mono', monospace;
+}
+#intr{
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+.texto1{
+    padding-top: 15px;
+    padding-left: 65px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Fira Mono', monospace;
+}
+.ms1{
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: auto;
+    max-width: auto;
+    max-height: auto;
+    width: 250px;
+    height: auto;
+    border: 8px solid #DAA520;
+}
+.ms2{
+    display: block;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: auto;
+    max-width: auto;
+    max-height: auto;
+    width: 250px;
+    height: auto;
+    border: 8px solid #191970;
+}
+.ms3{
+    display: block;
+    margin-top: 40px;
+    margin-left: 980px;
+    margin-right: auto;
+    max-width: auto;
+    max-height: auto;
+    width: 250px;
+    height: auto;
+    border: 8px solid #000000;
+    margin-bottom: 15px;
+}
+footer{
+    color: #F4F4F2;
+    position:relative;
+    bottom: 0;
+    background-color: #000000;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 65px;
+    padding-right: 65px;
+    text-decoration: none;
+    display: inline-block;
+}
